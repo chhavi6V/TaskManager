@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8050/api",
+  baseURL: "https://task-manager-tau-teal.vercel.app/api",
 });
 
 api.interceptors.request.use(
